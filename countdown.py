@@ -87,7 +87,9 @@ def post(out):
     payload = {
         "attachments": [
             {   
-                "title": "COUNTDOWN!",
+                "username": "Blue Jay Bot",
+                "icon_emoji": ":bluejays:",
+                "title": "BLUE JAYS COUNTDOWN!",
                 "text": out,
                 "color": "#7CD197"
             }
